@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+
+/* if , else , or , and || if, else, elseif, && */
+
+
+/*  check positive and add */
+
+int first_no, sec_no, final;
+print("Enter your first number = ");
+scanf("%d",&first_no);
+
+print("Enter your second number = ");
+scanf("%d",&sec_no);
+
+
+if(first_no >= 0 && sec_no >= 0)
+{ final = first_no + sec_no ;
+    print("The sum is =%d",final);
+
+}
+else ;
+{
+    print("one of the entered number is NOT positive");
+}
+
+
+
+}
